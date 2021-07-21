@@ -438,6 +438,7 @@
 						.each(function(event) {
 
 							var i = $(this);
+							console.log(i)
 
 							if (i.attr('name').match(/-polyfill-field$/))
 								i.attr('name', '');
@@ -470,6 +471,7 @@
 							switch (this.type) {
 
 								case 'submit':
+									
 								case 'reset':
 									break;
 
